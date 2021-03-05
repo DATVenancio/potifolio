@@ -85,6 +85,127 @@ body,html{
     text-align: center;
 }
 
+#botao-jogos{
+    
+    height: 100px;
+    width: 100px;
+    background-color: red;
+
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+#titulo-jogos{
+    position: absolute;
+    width: 100px;
+    margin-left: 350px;
+    margin-top: 70px;
+
+}
+
+
+#botao-web{
+    
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 100px;
+}
+#titulo-web{
+    position: absolute;
+    width: 100px;
+    margin-left: 650px;
+    margin-top: 70px;
+
+}
+
+#botao-desktop{
+    
+    height: 100px;
+    width: 100px;
+    background-color: gray;
+
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 100px;
+    text-align: center;
+}
+#titulo-desktop{
+    position: absolute;
+    width: 100px;
+    margin-left: 943px;
+    margin-top: 70px;
+
+}
+
+
+#div-jogos{
+    
+    height: 300px;
+    width: 700px;
+    background-color: yellow;
+
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 250px;
+
+}
+#div-web{
+    
+    height: 300px;
+    width: 700px;
+    background-color: pink;
+
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 250px;
+
+}
+#div-desktop{
+    
+    height: 300px;
+    width: 700px;
+    background-color: orange;
+
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 250px;
+
+}
+
+
+#botao-home{
+    
+    height: 100px;
+    width: 200px;
+
+    position:absolute;
+    margin-left:50px;
+    margin-top: 250px;
+}
+#titulo-home{
+    position: absolute;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 200px;
+
+}
+
+
+
+
+.item{
+    height: 286px;
+    width: 220px;
+    border: black solid 4px;
+    border-radius: 20px;
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
 
 
 
