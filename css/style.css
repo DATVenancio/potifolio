@@ -1,0 +1,121 @@
+
+
+body,html{
+    background-color: #2b2b2b;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+
+#botao-curriculo{
+    height: 70px;
+    width: 100px;
+
+    position:absolute;
+    margin-left:700px;
+    margin-top: 50px;
+}
+#botao-contato{
+    height: 70px;
+    width: 100px;
+
+    position:absolute;
+    margin-left:900px;
+    margin-top: 50px;
+}
+
+#curriculo-texto{
+    height: 300px;
+    width: 500px;
+    border: blue solid 2px;
+    position:absolute;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+#contato-texto{
+    height: 300px;
+    width: 500px;
+    border: red solid 2px;
+    position:absolute;
+    margin-left: 600px;
+    margin-top: 200px;
+}
+
+
+
+
+#profile-pic{
+    position:absolute;
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+
+    background-image: url(../img/perfil.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+#profile-title{
+    
+    background-color: darkgray;
+    position:absolute;
+    height: 180px;
+    width: 400px;
+    margin-top: 400px;
+    margin-left: 50px;
+}
+#profile-title h1,h2{
+    
+    text-align: center;
+}
+
+
+
+
+
+.capa{
+
+    background-color: cornflowerblue;
+    width:1400px;
+    height:600px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-300px;
+    margin-left:-700px; /* Valor da Largura */
+}
+.capa div{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+.navigation{
+    
+    height: 50px;;
+}
+
+.navigation ul{
+    margin-top: 0;
+    padding-left: 0;
+    text-align: right;
+    height: 50px;
+    
+}
+.navigation li{
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 50px;
+}
