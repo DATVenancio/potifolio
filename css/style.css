@@ -28,7 +28,7 @@ body,html{
 #curriculo-texto{
     height: 300px;
     width: 500px;
-    border: blue solid 2px;
+    background-color: blue;
     position:absolute;
     margin-left: 600px;
     margin-top: 200px;
@@ -36,7 +36,7 @@ body,html{
 #contato-texto{
     height: 300px;
     width: 500px;
-    border: red solid 2px;
+    background-color: red;
     position:absolute;
     margin-left: 600px;
     margin-top: 200px;
