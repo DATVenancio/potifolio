@@ -1,3 +1,4 @@
+botaoJogos();
 function botaoCurriculo(){
     document.getElementById("curriculo-texto").style.display="block";
     document.getElementById("contato-texto").style.display="none";

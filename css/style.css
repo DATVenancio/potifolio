@@ -175,6 +175,15 @@ button{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+
+    transition: width 0.5s, height 0.5s;
+}
+#botao-jogos:hover{
+
+    height: 120px;
+    width: 120px;
+  
 }
 #titulo-jogos{
     position: absolute;
@@ -201,6 +210,14 @@ button{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    transition: width 0.5s, height 0.5s;
+}
+#botao-web:hover{
+
+    height: 120px;
+    width: 120px;
+  
 }
 #titulo-web{
     position: absolute;
@@ -222,11 +239,19 @@ button{
     margin-top: 100px;
     text-align: center;
 
-    background-image: url(../img/area-de-trabalho-do-computador.png);
+    background-image: url(../img/smartphone-call.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    transition: width 0.5s, height 0.5s;
+}
+#botao-desktop:hover{
+
+    height: 120px;
+    width: 120px;
+  
 }
 #titulo-desktop{
     position: absolute;
@@ -240,26 +265,17 @@ button{
 #div-jogos{
     
     height: 300px;
-    width: 700px;
+    width: 800px;
+    background-color: #62606B;
+    border-radius: 10px;;
+    opacity: 0.8;
 
 
     position: absolute;
-    margin-left: 350px;
+    margin-left: 300px;
     margin-top: 250px;
-    display: inline-block;
+    display: block;
 
-}
-
-.jogo{
-    position: absolute;
-    width: 210px;
-    height: 115px;
-    margin-left: 5px;
-    
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 }
 
 
@@ -270,23 +286,33 @@ button{
 #div-web{
     
     height: 300px;
-    width: 700px;
+    width: 800px;
+    background-color: #62606B;
+    border-radius: 10px;;
+    opacity: 0.8;
+    display: none;
 
 
     position: absolute;
-    margin-left: 350px;
+    margin-left: 300px;
     margin-top: 250px;
+
 
 }
 #div-desktop{
     
     height: 300px;
-    width: 700px;
-    
+    width: 800px;
+    background-color: #62606B;
+    border-radius: 10px;;
+    opacity: 0.8;
+    display: none;
+
 
     position: absolute;
-    margin-left: 350px;
+    margin-left: 300px;
     margin-top: 250px;
+
 
 }
 
@@ -299,7 +325,18 @@ button{
     position:absolute;
     margin-left:50px;
     margin-top: 250px;
+    opacity: 0.7;
+    transition: width 0.5s, height 0.5s,opacity 0.5s;
 }
+
+
+#botao-home:hover{
+    
+    opacity: 1;
+
+
+}
+
 #titulo-home{
     width: 200px;
     font-family: 'Ubuntu', sans-serif;
@@ -315,42 +352,42 @@ button{
 
 
 .item{
-    height: 286px;
-    width: 220px;
-    border: black solid 4px;
+    margin-top: 50px;
+    height: 217px;
+    width: 362px;
     border-radius: 20px;
-    margin-top: 2px;
-    margin-left: 2px;
     position: absolute;
-
-    font-size: 20px;
-    font-family: 'Ubuntu', sans-serif;
-    font-weight: bold;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
 }
 
-.item h1{
+
+.item-interno{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+    opacity: 0;
+    color: white;
+    transition: opacity 0.5s;
+}
+.item-interno h1{
+    font-size: 30px;
     text-align: center;
-    font-size: 23px;
+    opacity: 1;
+}
+.item-interno h2{
+    font-size: 25px;;
+}
+.item-interno:hover{
+
+    opacity: 0.8;
 }
 
-.item-label1{
-    position: absolute;
-    margin-top: 120px;
-}
-.item-texto1{
-    position: absolute;
-    margin-top: 150px;
-    margin-left: 20px;;
-}
-.item-label2{
-    position: absolute;
-    margin-top: 180px;
-}
-.item-texto2{
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 20px;;
-}
+
 
 
 
