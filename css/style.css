@@ -1,12 +1,16 @@
 
 
 body,html{
-    background-color: #2b2b2b;
+    background-color: #00010D;
     margin: 0px;
     padding: 0px;
     
 }
 
+button{
+    background-color: #3F3E45;
+    border-radius: 10px;
+}
 
 #botao-curriculo{
     height: 70px;
@@ -15,10 +19,23 @@ body,html{
     position:absolute;
     margin-left:700px;
     margin-top: 50px;
+    background-color: #62606B;
+    border-radius: 10px;;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+
 }
 #botao-contato{
     height: 70px;
     width: 100px;
+    background-color: #62606B;
+    border-radius: 10px;;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
 
     position:absolute;
     margin-left:900px;
@@ -28,19 +45,55 @@ body,html{
 #curriculo-texto{
     height: 300px;
     width: 500px;
-    background-color: blue;
+    background-color: #62606B;
+    border-radius: 10px;
     position:absolute;
     margin-left: 600px;
     margin-top: 200px;
+
+    
 }
+#curriculo-texto h2{
+    margin-left: 10px;
+    font-size: 25px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#curriculo-texto li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+
 #contato-texto{
     height: 300px;
     width: 500px;
-    background-color: red;
+    background-color: #74888C;
+    border-radius: 10px;
     position:absolute;
     margin-left: 600px;
     margin-top: 200px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
 }
+#contato-texto label {
+    margin-top: 20px;
+    margin-left: 10px;
+
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    color: black;
+    text-decoration:none;
+}
+#contato-texto a {
+    color: black;
+    text-decoration:none;
+}
+
 
 
 #botao-portifolio{
@@ -55,6 +108,7 @@ body,html{
 
 
 #profile-pic{
+    border: 2px solid #575859;
     position:absolute;
     height: 300px;
     width: 300px;
@@ -73,7 +127,10 @@ body,html{
 
 #profile-title{
     
-    background-color: darkgray;
+    background-color: #62606B;
+    border-radius: 10px;;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
     position:absolute;
     height: 180px;
     width: 400px;
@@ -211,8 +268,8 @@ body,html{
 
 
 .capa{
-
-    background-color: cornflowerblue;
+    border-radius: 10px;
+    background-color: #918F9E;
     width:1400px;
     height:600px;
     position:absolute;
@@ -249,3 +306,5 @@ body,html{
     padding-right: 30px;
     line-height: 50px;
 }
+
+  
