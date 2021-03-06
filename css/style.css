@@ -17,7 +17,7 @@ button{
     width: 100px;
  
 	background-color:transparent;
-
+    
     position:absolute;
     margin-left:700px;
     margin-top: 50px;
@@ -159,14 +159,22 @@ button{
 }
 
 #botao-jogos{
+    background-color:transparent;
+    border: 3px solid #080E33;
     
     height: 100px;
     width: 100px;
-    background-color: red;
+  
 
     position: absolute;
     margin-left: 350px;
     margin-top: 100px;
+
+    background-image: url(../img/controle-de-video-game.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #titulo-jogos{
     position: absolute;
@@ -178,14 +186,21 @@ button{
 
 
 #botao-web{
-    
+    background-color:transparent;
+    border: 3px solid #080E33;
     height: 100px;
     width: 100px;
-    background-color: blue;
+
 
     position: absolute;
     margin-left: 650px;
     margin-top: 100px;
+
+    background-image: url(../img/internet.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #titulo-web{
     position: absolute;
@@ -196,15 +211,22 @@ button{
 }
 
 #botao-desktop{
-    
+    background-color:transparent;
+    border: 3px solid #080E33;
     height: 100px;
     width: 100px;
-    background-color: gray;
+    
 
     position: absolute;
     margin-left: 950px;
     margin-top: 100px;
     text-align: center;
+
+    background-image: url(../img/area-de-trabalho-do-computador.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 #titulo-desktop{
     position: absolute;
@@ -219,18 +241,37 @@ button{
     
     height: 300px;
     width: 700px;
-    background-color: yellow;
+
 
     position: absolute;
     margin-left: 350px;
     margin-top: 250px;
+    display: inline-block;
 
 }
+
+.jogo{
+    position: absolute;
+    width: 210px;
+    height: 115px;
+    margin-left: 5px;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+
+
 #div-web{
     
     height: 300px;
     width: 700px;
-    background-color: pink;
+
 
     position: absolute;
     margin-left: 350px;
@@ -241,7 +282,7 @@ button{
     
     height: 300px;
     width: 700px;
-    background-color: orange;
+    
 
     position: absolute;
     margin-left: 350px;
@@ -252,7 +293,7 @@ button{
 
 #botao-home{
     
-    height: 100px;
+    height: 200px;
     width: 200px;
 
     position:absolute;
@@ -260,10 +301,13 @@ button{
     margin-top: 250px;
 }
 #titulo-home{
-    position: absolute;
     width: 200px;
-    margin-left: 50px;
-    margin-top: 200px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position:absolute;
+    margin-left:70px;
+    margin-top: 300px;
 
 }
 
@@ -277,8 +321,36 @@ button{
     border-radius: 20px;
     margin-top: 2px;
     margin-left: 2px;
+    position: absolute;
+
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
 }
 
+.item h1{
+    text-align: center;
+    font-size: 23px;
+}
+
+.item-label1{
+    position: absolute;
+    margin-top: 120px;
+}
+.item-texto1{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 20px;;
+}
+.item-label2{
+    position: absolute;
+    margin-top: 180px;
+}
+.item-texto2{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 20px;;
+}
 
 
 
